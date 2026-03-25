@@ -1,0 +1,14 @@
+# AWS / Security
+*.pem
+.env
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Deployment
+*.zip
