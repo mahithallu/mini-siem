@@ -24,7 +24,7 @@ The AWS CloudWatch agent installed on the honeypot instantly captured the failed
 ## 🚨 Phase 3: Alert Generation
 Upon calculating that the threat actor exceeded the configured threshold, the Detection Lambda queried the **AbuseIPDB API** to check the attacker's reputation score. The Lambda then published a payload to **Amazon SNS**, which delivered a real-time alert to the designated SOC Analyst inbox.
 
-![alt text](<AWS SNS Email.jpg>)
+![alt text](<AWS SNS Email.png>)
 ---
 
 ## 🔍 Phase 4: SIEM Investigation & Verification
